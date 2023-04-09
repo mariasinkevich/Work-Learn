@@ -1,0 +1,503 @@
+*, *::before, *::after{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.main-color{
+	background-color: #0F0068;
+}
+
+html{
+	height: 100%;
+} 
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	min-height: 100%;
+	position: relative;
+}
+
+main {
+	padding-bottom: 245px;
+}
+
+
+.back-color{
+	background-color: #FFFFFF;
+}
+
+.images{
+	border-radius: 100px;
+	opacity: 0.5;
+}
+
+/*NAVBAR*/
+.nav-brand{
+	color: #FFFFFF;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 24px;
+	padding-right: 450px;
+	padding-left: 15px;
+}
+
+.nav-item{
+	padding-right: 70px;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 24px;
+}
+
+.nav-brand a, .nav-item a, .nav-brand a:hover{
+	color: #FFFFFF;
+}
+
+.nav-item a:hover{
+	color: rgba(255, 255, 255, 0.8);
+}
+
+.nav-lk a{
+	background-image: url(/coworking/event/static/event/images/lkbtn.svg);
+	height: 30px;
+	width: 30px;
+}
+
+.nav-lk a:hover{
+	background-image: url(/coworking/event/static/event/images/lkbtnafter.svg);
+}
+
+
+/*FORM*/
+.auth_form h2{
+	text-align: center;
+}
+
+.auth_form {
+	margin: 0 auto;
+	background-color: #D9D9D9;
+	border-radius: 100px;
+	height: 605px;
+	width:636px;
+}
+
+.reg_form {
+	margin: 0 auto;
+	background-color: #D9D9D9;
+	border-radius: 100px;
+	height: 1120px;
+	width:636px;
+}
+
+.regevent_form{
+	margin: 0 auto;
+	background-color: #D9D9D9;
+	border-radius: 100px;
+	height: 1280px;
+	width:1076px;
+}
+
+.regcowork_form{
+	margin: 0 auto;
+	background-color: #D9D9D9;
+	border-radius: 100px;
+	height: 500px;
+	width:636px;
+}
+
+.staff_form{
+	margin: 0 auto;
+	background-color: #D9D9D9;
+	border-radius: 100px;
+	height: 370px;
+	width:636px;
+}
+
+.help_form{
+	margin: 0 auto;
+	background-color: #D9D9D9;
+	border-radius: 100px;
+	height: 650px;
+	width:1076px;
+}
+
+.form-title{
+	padding-top: 16px;
+	padding-bottom: 38px;
+	text-align: center;
+	color: #0F0068;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 44px;
+}
+
+.forms-label{
+	padding-left: 110px;
+	padding-right: 25px;
+	color: #0F0068;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+
+form input{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 14px;
+	margin-bottom: 50px;
+	border-radius: 100px;
+	width: 416px;
+	height: 60px;
+	background: #C6C6C6;
+	border: 2px solid #B0B0B0;
+	font-weight: 400;
+	font-size: 18px;
+	color: #0F0068;
+	text-indent: 30px;
+}
+
+.more, .regeventinfo{
+	margin: 0 auto;
+	width:856px;
+	margin-top: 14px;
+	margin-bottom: 50px;
+}
+
+.regeventinfo textarea{
+	resize: none;
+	border-radius: 50px;
+	width:856px;
+	height: 140px;
+	background: #C6C6C6;
+	border: 2px solid #B0B0B0;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 22px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 20px;
+	color: #0F0068;
+}
+
+.more textarea{
+	resize: none;
+	border-radius: 50px;
+	width:856px;
+	height: 300px;
+	background: #C6C6C6;
+	border: 2px solid #B0B0B0;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 22px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 20px;
+	color: #0F0068;
+}
+
+.regevent_form input{
+	width: 856px;
+}
+
+form input[type="name"]:focus, form input[type="surname"]:focus,
+form input[type="datetext"]:focus, form input[type="email"]:focus,
+form input[type="password"]:focus, form input[type="login"]:focus,
+form input[type="text"]:focus, textarea:focus{
+	border: 2px solid rgba(15, 0, 104, 0.5);
+	outline: none;
+}
+
+/*FORM BTNS*/
+.first-btn{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 100px;
+	width: 416px;
+	height: 60px;
+	background: #0F0068;
+	color: #FFFFFF;
+	border: 0;
+	margin-top: 25px;
+	margin-bottom: 35px;
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 27px;
+}
+
+.second-btn{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	border-radius: 100px;
+	width: 416px;
+	height: 60px;
+	background: #B4B2B2;
+	color: #0F0068;
+	border: 0;
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 27px;
+	text-decoration: none;
+} 
+
+.second-btn:hover{
+	background: rgba(180, 178, 178, 0.8);
+	text-decoration: none;
+	color: #0F0068;
+}
+
+.first-btn:hover{
+	background: rgba(15, 0, 104, 0.92);
+}
+
+.register-btn {
+	display: flex;
+	justify-content: center;
+}
+
+/*RADIO*/
+.radio{
+	margin-bottom: 30px;
+	margin-top: 20px;
+	position: relative;
+}
+
+.radio-input{
+	all:unset;
+	-webkit-appearance: none;
+	appearance: none;
+	position: absolute;
+}
+
+.radio-label:before{
+	margin-top: 5px;
+	content: "";
+	display: block;
+	width: 16px;
+	height: 16px;
+
+	border: 1px solid #B0B0B0;
+	background-color: #C6C6C6;
+	border-radius: 50%;
+
+	position:absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+.radio-label:after{
+	margin-top: 8px;
+	margin-left: 3px;
+	content: "";
+	display: block;
+	width: 10px;
+	height: 10px;
+
+	background-color: #0F0068;
+	border-radius: 50%;
+	opacity: 0;
+
+	position:absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+
+.radio-input:checked + .radio-label:after{
+	opacity: 1;
+}
+
+.checkbox-label:before{
+	margin-top: 5px;
+	margin-left: 110px;
+	content: "";
+	display: block;
+	width: 16px;
+	height: 16px;
+
+	border: 1px solid #B0B0B0;
+	background-color: #C6C6C6;
+	border-radius: 5px;
+
+	position:absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+.checkbox-label:after{
+	margin-top: 5px;
+	margin-left: 110px;
+	content: "";
+	display: block;
+	width: 16px;
+	height: 16px;
+
+	background: url("/coworking/event/static/event/images/checkbox.svg") no-repeat;
+	background-size: 16px 16px;
+	opacity: 0;
+
+	position:absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+
+.radio-label{
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 22px;
+	color: #0F0068;
+}
+
+.radio-input2{
+	display: none;
+}
+
+
+.radio-label2{
+	position: relative;
+	background-color: #C6C6C6;
+	border: 2px solid #B0B0B0;
+	border-radius: 40px;
+	padding: 5px 50px;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 22px;
+	color: #0F0068;
+}
+
+.radio-input2:checked + .radio-label2 {
+	border: 2px solid rgba(15, 0, 104, 0.5);
+}
+
+.radio-label3{
+	position: relative;
+	background-color: #C6C6C6;
+	border: 2px solid #B0B0B0;
+	border-radius: 40px;
+	padding: 5px 20px;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 22px;
+	color: #0F0068;
+}
+
+.radio-input2:checked + .radio-label3 {
+	border: 2px solid rgba(15, 0, 104, 0.5);
+}
+
+
+/*CHECKBOX*/
+.checkbox{
+	position: relative;
+	margin-bottom: 38px;
+}
+
+.checkbox-input{
+	-webkit-appearance: none;
+	appearance: none;
+	position: absolute;
+}
+
+.checkbox-label{
+	padding-left: 140px;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 22px;
+	color: #0F0068;
+}
+
+.checkbox-label:before{
+	margin-top: 5px;
+	margin-left: 110px;
+	content: "";
+	display: block;
+	width: 16px;
+	height: 16px;
+
+	border: 1px solid #B0B0B0;
+	background-color: #C6C6C6;
+	border-radius: 5px;
+
+	position:absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+.checkbox-label:after{
+	margin-top: 5px;
+	margin-left: 110px;
+	content: "";
+	display: block;
+	width: 16px;
+	height: 16px;
+
+	background: url("/coworking/event/static/event/images/checkbox.svg") no-repeat;
+	background-size: 16px 16px;
+	opacity: 0;
+
+	position:absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+
+.checkbox input{
+	all: unset;
+}
+
+.checkbox-input:checked + .checkbox-label:after{
+	opacity: 1;
+}
+
+/*FOOTER*/
+footer{
+	position: absolute;
+	color: #FFFFFF;
+	width: 100%;
+	background: #02051F;
+	flex-direction: column;
+	bottom: 0;
+	width: 100%;
+	height: 145px;
+}
+
+.footer-menu{
+    background-color: #02051F;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.footer-item{
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 24px;
+    display: block;
+}
+
+.footer-menu p {
+    font-weight: 450;
+    margin-top: 20px;
+	font-size: 20px;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+	font-size: 20px;
+}
+
+.footer-link:hover{
+	color: rgba(255, 255, 255, 0.8);
+}
